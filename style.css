@@ -1,0 +1,39 @@
+body {
+  background: #111a1a;
+  color: rgb(193, 39, 142);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid #eadede;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  background-color: #261723;
+  cursor: pointer;
+}
+
+td.revealed {
+  background-color: #ffffff;
+  color: #f7f4f4;
+  cursor: default;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
